@@ -1,5 +1,5 @@
 import java.util.*;
-public class Problem03 {
+public class P68644 {
     public static int[] solution(int[] numbers) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i=0; i<numbers.length; i++){

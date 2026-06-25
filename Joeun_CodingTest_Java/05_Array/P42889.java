@@ -1,5 +1,5 @@
 import java.util.*;
-public class Problem06 {
+public class P42889 {
     public static int[] solution(int N, int[] stages) {
         int max_stage = Arrays.stream(stages).max().getAsInt();
         

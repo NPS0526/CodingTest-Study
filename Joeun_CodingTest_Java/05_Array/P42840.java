@@ -1,5 +1,5 @@
 import java.util.*;
-public class Problem04 {
+public class P42840 {
     public static int[] solution(int[] answers) {
         int[] num1 = {1,2,3,4,5};
         int[] num2 = {2,1,2,3,2,4,2,5};
