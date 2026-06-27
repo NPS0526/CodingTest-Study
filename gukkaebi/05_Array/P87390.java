@@ -6,7 +6,6 @@ class Solution {
 		int idx = 0;
 
 		for (long i = left; i < right + 1; i++) {
-//			이 부분 이해 잘 안됨
 			long row = i / n;
 			long col = i % n;
 			answer[idx++] = (int) Math.max(row, col) + 1;

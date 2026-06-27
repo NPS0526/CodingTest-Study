@@ -1,9 +1,5 @@
 class Solution {
 	public int[] solution(int n, long left, long right) {
-		// int[] answer = {};
-		// return answer;
-//		int[][] arr = new int[n][n];
-
 		int num = n * n;
 		long[] ilza = new long[num];
 

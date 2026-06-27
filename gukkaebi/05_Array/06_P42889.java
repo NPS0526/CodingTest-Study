@@ -2,13 +2,9 @@ import java.util.HashMap;
 
 class Solution {
 	public int[] solution(int N, int[] stages) {
-//        int[] answer = {};
-//        return answer;
-
 		int[] challenger = new int[N + 2];
 		for (int stage : stages) {
 			challenger[stage] += 1;
-//			println(challenger[stage]);
 		}
 
 		HashMap<Integer, Double> fails = new HashMap<>();
