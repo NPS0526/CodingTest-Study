@@ -1,5 +1,5 @@
 import java.util.*;
-public class P12949 {
+public class P05_12949 {
     public static int[][] solution(int[][] arr1, int[][] arr2) {
         // [행의 개수, 열의 개수]
         int[][] nm = {{arr1.length, arr1[0].length},{arr2.length, arr2[0].length}};

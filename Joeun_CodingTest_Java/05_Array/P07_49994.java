@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class P49994 {
+public class P07_49994 {
     public int solution(String dirs) {
         ArrayList<int[]> movings = new ArrayList<>();
         int x = 0; int y = 0; int[] moving = new int[4];
