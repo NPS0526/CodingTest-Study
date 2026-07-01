@@ -6,15 +6,14 @@ public class P12973 {
     public int solution(String s){
         ArrayDeque<Character> stack = new ArrayDeque<>();
         
-        stack.push(s.charAt(0));
-        for(int i=1; i<s.length(); i++){
-            char c = s.charAt(i);
+        for(char c : s.toCharArray()){
             if(stack.isEmpty() || c != stack.peek()) stack.push(c);
             else{
                 stack.pop();
             }
         }
-        if(stack.isEmpty()) return 1;
-        else return 0;
+        //if(stack.isEmpty()) return 1;
+        //else return 0;
+        return stack.isEmpty() ? 1 : 0;
     }
 }
