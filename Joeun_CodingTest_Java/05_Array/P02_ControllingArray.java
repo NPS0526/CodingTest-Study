@@ -1,5 +1,5 @@
 import java.util.*;
-public class P02 {
+public class P02_ControllingArray {
     public static int[] solution(int[] arr) {
         /* for 문 사용
         arr = Arrays.stream(arr).distinct().sorted().toArray();

@@ -1,5 +1,5 @@
 import java.util.*;
-public class P01 {
+public class P01_SortingArray {
     public static int[] solution(int[] arr) {
         Arrays.sort(arr);
         return arr;
