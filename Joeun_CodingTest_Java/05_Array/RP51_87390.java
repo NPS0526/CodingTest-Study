@@ -1,5 +1,5 @@
 import java.util.*;
-public class RP01_87390 {
+public class RP51_87390 {
     public static int[] solution(int n, long left, long right) {
         int tmp = (int) right - (int)left+1;
         int[] result = new int[tmp];
