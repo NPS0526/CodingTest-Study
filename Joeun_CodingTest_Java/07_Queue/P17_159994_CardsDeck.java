@@ -1,6 +1,3 @@
-import java.util.*;
-import java.util.stream.*;
-
 public class P17_159994_CardsDeck { // 기능 개발
     public String solution(String[] cards1, String[] cards2, String[] goal) {
         int iCard1 = 0; int iCard2 = 0; int iGoal = 0;
