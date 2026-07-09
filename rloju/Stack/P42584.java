@@ -24,5 +24,4 @@ public class P42584 {
         }
         return answer;
     }
-
 }
