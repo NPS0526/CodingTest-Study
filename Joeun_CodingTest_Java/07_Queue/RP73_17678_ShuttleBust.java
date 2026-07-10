@@ -13,7 +13,6 @@ public class RP73_17678_ShuttleBust { // 셔틀버스
         
         // 버스에 탄 사람 체크
         int bus_time = 0; int last_crew = 0;
-        boolean flag = true;
         int qIdx = 0;
         int cnt = 0;
         
