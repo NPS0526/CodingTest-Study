@@ -18,7 +18,7 @@ public class P19_42576_IncompleteRunner { // 완주하지 못한 선수
     }
 
     public static void main(String[] args) {
-        P19_42576_IncompleteRunner p = new P19_42576_IncompleteRunner();
+        RP73_17678_ShuttleBust p = new RP73_17678_ShuttleBust();
         System.out.println(p.solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"})); // "leo"
     }
 }
