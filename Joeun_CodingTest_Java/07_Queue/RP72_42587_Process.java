@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.*;
 
 public class RP72_42587_Process { // 다리를 지나는 트럭
     public int solution(int[] priorities, int location) {
