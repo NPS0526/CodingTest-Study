@@ -21,12 +21,12 @@ class Solution {
                 if (curr_priority < priority) {
                     flag = false;
                     queue.add(curr_idx);
-                    prior_queue.add(priority);
+                    prior_queue.add(curr_priority);
                     break;
                 }
             }
 
-            if (flag == ture)
+            if (flag == true)
                 cnt++;
 
             if (flag == true && curr_idx == location) {
