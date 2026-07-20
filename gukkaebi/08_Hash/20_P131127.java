@@ -11,7 +11,7 @@ class Solution {
         }
 
         int st = 0;
-        while (st < discount.length - 10) {
+        while (st <= discount.length - 10) {
             HashMap<String, Integer> temp = new HashMap<>();
             String[] ten_days = Arrays.copyOfRange(discount, st, st + 10);
 
