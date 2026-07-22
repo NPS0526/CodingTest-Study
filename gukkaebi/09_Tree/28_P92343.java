@@ -46,7 +46,7 @@ class Solution {
         for (int child : graph[0]) {
             startNextNodes.add(child);
         }
-        
+
         queue.offer(new State(0, 1, 0, startNextNodes));
         maxSheep = 1;
 
@@ -55,11 +55,11 @@ class Solution {
 
             maxSheep = Math.max(maxSheep, current.sheep);
 
-            for (int next : current.nextNodes) {
+            for (int nextNode : current.nextNodes) {
                 int sheepCnt = current.sheep;
                 int wolfCnt = current.wolf;
 
-                if (gInfo[next] == 0) {
+                if (gInfo[nextNode] == 0) {
                     sheepCnt++;
                 } else {
                     wolfCnt++;
@@ -70,13 +70,13 @@ class Solution {
 
                 List<Integer> nextAvailableNodes = new ArrayList<>(current.nextNodes);
 
-                nextAvailableNodes.remove(Integer.valueOf(next));
+                nextAvailableNodes.remove(Integer.valueOf(nextNode));
 
-                for (int child : graph[next]) {
+                for (int child : graph[nextNode]) {
                     nextAvailableNodes.add(child);
                 }
 
-                queue.offer(new State(next, sheepCnt, wolfCnt, nextAvailableNodes));
+                queue.offer(new State(nextNode, sheepCnt, wolfCnt, nextAvailableNodes));
             }
         }
     }
