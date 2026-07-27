@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class P26_12985_PredictedMatchup { // 베스트 앨범
     public int solution(int n, int a, int b)
     {
