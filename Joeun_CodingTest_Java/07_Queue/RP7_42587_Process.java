@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RP72_42587_Process { // 다리를 지나는 트럭
+public class RP7_42587_Process { // 다리를 지나는 트럭
     public int solution(int[] priorities, int location) {
         int answer = 0;
         // 우선순위 큐 초기화 [우선순위, location]
@@ -29,7 +29,7 @@ public class RP72_42587_Process { // 다리를 지나는 트럭
     }
 
     public static void main(String[] args) {
-        RP72_42587_Process p = new RP72_42587_Process();
+        RP7_42587_Process p = new RP7_42587_Process();
         System.out.println(p.solution(new int[]{2, 1, 3, 2}, 2)); // 1
     }
 }

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RP83_77486_MultiLevelSales { // 오픈 채팅방
+public class RP8_77486_MultiLevelSales { // 오픈 채팅방
     public int[] solution(String[] enroll, String[] referral, String[] seller, int[] amount) {
         // 해시맵 enroll:referral
         HashMap<String,String> group = new HashMap<>();
@@ -45,7 +45,7 @@ public class RP83_77486_MultiLevelSales { // 오픈 채팅방
     }
 
     public static void main(String[] args) {
-        RP83_77486_MultiLevelSales p = new RP83_77486_MultiLevelSales();
+        RP8_77486_MultiLevelSales p = new RP8_77486_MultiLevelSales();
         System.out.println(Arrays.toString(p.solution(new String[]{"john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"}, 
         new String[]{"-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"}, 
         new String[]{"young", "john", "tod", "emily", "mary"}, 

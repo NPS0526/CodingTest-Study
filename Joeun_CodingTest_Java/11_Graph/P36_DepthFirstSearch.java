@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class P32_DepthFirstSearch {
+public class P36_DepthFirstSearch {
     public String[] solution(String[][] graph, String start, int n){
         // 트리 초기화
         ArrayList<ArrayList<Integer>> tree = new ArrayList<>();

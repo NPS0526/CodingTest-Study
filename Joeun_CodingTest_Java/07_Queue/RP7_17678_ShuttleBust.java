@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RP73_17678_ShuttleBust { // 셔틀버스
+public class RP7_17678_ShuttleBust { // 셔틀버스
     public String solution(int n, int t, int m, String[] timetable) {
         String answer = "";
         
@@ -46,7 +46,7 @@ public class RP73_17678_ShuttleBust { // 셔틀버스
     }
 
     public static void main(String[] args) {
-        RP73_17678_ShuttleBust p = new RP73_17678_ShuttleBust();
+        RP7_17678_ShuttleBust p = new RP7_17678_ShuttleBust();
         System.out.println(p.solution(1, 1, 5, new String[]{"08:00", "08:01", "08:02", "08:03"})); // "09:00"
     }
 }

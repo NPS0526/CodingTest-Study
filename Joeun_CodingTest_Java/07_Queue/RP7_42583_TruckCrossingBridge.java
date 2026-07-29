@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.*;
 
-public class RP71_42583_TruckCrossingBridge { // 다리를 지나는 트럭
+public class RP7_42583_TruckCrossingBridge { // 다리를 지나는 트럭
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0; int sum = 0;
         ArrayDeque<Integer> qTruck = Arrays.stream(truck_weights).boxed().collect(Collectors.toCollection(ArrayDeque::new));
@@ -33,7 +33,7 @@ public class RP71_42583_TruckCrossingBridge { // 다리를 지나는 트럭
     }
 
     public static void main(String[] args) {
-        RP71_42583_TruckCrossingBridge p = new RP71_42583_TruckCrossingBridge();
+        RP7_42583_TruckCrossingBridge p = new RP7_42583_TruckCrossingBridge();
         System.out.println(p.solution(2, 10, new int[]{7, 4, 5, 6})); // 8
     }
 }
