@@ -34,7 +34,7 @@ public class P36_DepthFirstSearch {
     }
 
     public static void main(String[] args) {
-        P30_UnionFind p = new P30_UnionFind();
+        P36_DepthFirstSearch p = new P36_DepthFirstSearch();
         System.out.println(Arrays.toString(p.solution(new String[][]{{"1","2"},{"2","3"},{"3","4"},{"4","5"}}, "1", 5))); // ["1","2","3","4","5"]
         System.out.println(Arrays.toString(p.solution(new String[][]{{"1","2"},{"1","3"},{"2","4"},{"2","5"},{"3","6"},{"5","6"}}, "1", 6))); // ["1","2","4","5","6","3"]
     }
