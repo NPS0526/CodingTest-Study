@@ -10,10 +10,11 @@ class Solution {
     public int solution(int n, int[][] wires) {
 
         adjList = new ArrayList[n + 1];
+        visited = new int[n + 1];
         answer = n - 1;
 
         for (int i = 0; i < n + 1; i++) {
-            adjList[i].add(new ArrayList<>());
+            adjList[i] = new ArrayList<>();
         }
 
         for (int[] edge :
@@ -25,6 +26,7 @@ class Solution {
 
         dfs(1, n);
 
+        return answer;
     }
 
     public int dfs(int node, int n) {
@@ -36,7 +38,8 @@ class Solution {
 
             if (visited[next] == 0) {
                 int cnt = dfs(next, n);
-                answer = Math.min(answer, 2 * cnt - n);
+                answer = Math.min(answer, Math.abs(2 * cnt - n));
+                sum += cnt;
             }
         }
         return sum + 1;
